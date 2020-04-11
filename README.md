@@ -1,11 +1,11 @@
-# Neuroevolution in Typescript
+# This is a fork of digitsensitive/neuroevolution-typescript
+1. I wanted to enhance it with the ability to have multiple brains (Networks)
+2. I wanted to be Network Library agnostic, this repo creates a Synaptic-Adapter out-of-the-box
+but you can hook up any other NeuralNetwork library by creating a simple wrapper
+3. I made some examples to have a playground starter for others.
 
-&nbsp;&nbsp;
-[![GitHub issues](https://img.shields.io/github/issues/digitsensitive/neuroevolution-typescript.svg)](https://github.com/digitsensitive/neuroevolution-typescript/issues)
-[![GitHub stars](https://img.shields.io/github/stars/digitsensitive/neuroevolution-typescript.svg)](https://github.com/digitsensitive/neuroevolution-typescript/stargazers)
-![Contributions welcome](https://img.shields.io/badge/contributions-welcome-orange.svg)
-[![Code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
-[![GitHub license](https://img.shields.io/github/license/digitsensitive/neuroevolution-typescript.svg)](https://github.com/digitsensitive/neuroevolution-typescript)
+# Neuroevolution with Synaptic
+
 
 ## Neuroevolution
 
@@ -13,12 +13,11 @@ Neuroevolution, or neuro-evolution, is a form of machine learning that uses evol
 
 ## Motivation
 
-This library has been greatly influenced by [xviniette](https://github.com/xviniette/FlappyLearning).
-My motivation was to rewrite it in TypeScript.
+Playing around with Neural Networks
 
 ## Usage
 
-`import * as Neuroevolution from './node_modules/neuroevolution-typescript/main';`
+`import { Neuroevolution } from './node_modules/synaptic-neuroevolution';`
 
 
 ## Ressources
@@ -28,13 +27,13 @@ Training Deep Neural Networks for Reinforcement Learning](https://arxiv.org/pdf/
 
 ## Changelog
 
-[Learn about the latest improvements](https://github.com/digitsensitive/neuroevolution-typescript/blob/master/CHANGELOG.md)
+[Learn about the latest improvements](https://github.com/nickwinger/synaptic-neuroevolution/blob/master/CHANGELOG.md)
 
 ## Contributing
 
 Want to correct a bug, contribute some code, or improve the codes? Excellent! Let me know!
-Please read [CONTRIBUTING.md](https://github.com/digitsensitive/neuroevolution-typescript/blob/master/CONTRIBUTING.md) for details on our code of conduct.
+Please read [CONTRIBUTING.md](https://github.com/nickwinger/synaptic-neuroevolution/blob/master/CONTRIBUTING.md) for details on our code of conduct.
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/digitsensitive/neuroevolution-typescript/blob/master/LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/nickwinger/synaptic-neuroevolution/blob/master/LICENSE) file for details.
